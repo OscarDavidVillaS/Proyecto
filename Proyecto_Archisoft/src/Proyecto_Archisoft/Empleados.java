@@ -164,7 +164,7 @@ public class Empleados extends javax.swing.JInternalFrame {
 
     private void jButton_ConsultarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton_ConsultarActionPerformed
         DefaultTableModel model;
-        String Cedula = jTextField1.getText();
+        String Cedula = jPassword_Empleado.getText();
         try {
             Class.forName("com.mysql.jdbc.Driver");
             Connection conexion = null;
@@ -199,7 +199,7 @@ public class Empleados extends javax.swing.JInternalFrame {
                     model.addRow(fila);
                 }
             }
-            jTable1.setModel(model);
+            //jTable1.setModel(model);
 
 
         } catch (ClassNotFoundException ex) {

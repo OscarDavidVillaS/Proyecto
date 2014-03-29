@@ -25,7 +25,7 @@ import javax.swing.plaf.*;
  */
 
 
-public class Inicio {
+public class Archisoft {
   
     
 
@@ -49,11 +49,11 @@ catch (Exception e)  {
 e.printStackTrace();  
 
 }
-        
+        /*
         Inicial inicio=new Inicial();
         inicio.setExtendedState(inicio.MAXIMIZED_BOTH);
         inicio.setLocationRelativeTo(null);
         inicio.setVisible(true);
-        
+        */
     }
 }
