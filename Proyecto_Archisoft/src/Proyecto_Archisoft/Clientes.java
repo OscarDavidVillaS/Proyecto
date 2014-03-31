@@ -93,11 +93,10 @@ public class Clientes extends javax.swing.JFrame {
                     .addComponent(jTextField_Text_Nombre, javax.swing.GroupLayout.DEFAULT_SIZE, 142, Short.MAX_VALUE)
                     .addComponent(jTextField_Text_Dir)
                     .addComponent(jTextField_Text_Correo_Cli)
-                    .addComponent(jTextField_Text_Id, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                        .addComponent(jTextField_Placa, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, 81, Short.MAX_VALUE)
-                        .addComponent(jTextField_Num_Cel_Cli, javax.swing.GroupLayout.Alignment.LEADING)
-                        .addComponent(jTextField_Tel_Fijo_Cl, javax.swing.GroupLayout.Alignment.LEADING)))
+                    .addComponent(jTextField_Placa, javax.swing.GroupLayout.DEFAULT_SIZE, 142, Short.MAX_VALUE)
+                    .addComponent(jTextField_Num_Cel_Cli)
+                    .addComponent(jTextField_Tel_Fijo_Cl)
+                    .addComponent(jTextField_Text_Id))
                 .addContainerGap(132, Short.MAX_VALUE))
         );
         jInternalFrame1Layout.setVerticalGroup(
@@ -131,7 +130,7 @@ public class Clientes extends javax.swing.JFrame {
                 .addGroup(jInternalFrame1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel_Placa)
                     .addComponent(jTextField_Placa, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(12, Short.MAX_VALUE))
+                .addContainerGap(17, Short.MAX_VALUE))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());

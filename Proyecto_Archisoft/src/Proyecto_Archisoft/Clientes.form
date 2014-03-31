@@ -57,12 +57,10 @@
                       <Component id="jTextField_Text_Nombre" alignment="0" pref="142" max="32767" attributes="0"/>
                       <Component id="jTextField_Text_Dir" alignment="0" max="32767" attributes="0"/>
                       <Component id="jTextField_Text_Correo_Cli" alignment="0" max="32767" attributes="0"/>
-                      <Component id="jTextField_Text_Id" alignment="0" min="-2" pref="81" max="-2" attributes="0"/>
-                      <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
-                          <Component id="jTextField_Placa" alignment="0" pref="81" max="32767" attributes="0"/>
-                          <Component id="jTextField_Num_Cel_Cli" alignment="0" max="32767" attributes="0"/>
-                          <Component id="jTextField_Tel_Fijo_Cl" alignment="0" max="32767" attributes="0"/>
-                      </Group>
+                      <Component id="jTextField_Placa" alignment="0" pref="142" max="32767" attributes="0"/>
+                      <Component id="jTextField_Num_Cel_Cli" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jTextField_Tel_Fijo_Cl" alignment="0" max="32767" attributes="0"/>
+                      <Component id="jTextField_Text_Id" alignment="0" max="32767" attributes="0"/>
                   </Group>
                   <EmptySpace pref="132" max="32767" attributes="0"/>
               </Group>
@@ -106,7 +104,7 @@
                       <Component id="jLabel_Placa" alignment="3" min="-2" max="-2" attributes="0"/>
                       <Component id="jTextField_Placa" alignment="3" min="-2" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace pref="12" max="32767" attributes="0"/>
+                  <EmptySpace pref="17" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
